@@ -1,7 +1,7 @@
 {
 	"version": 3,
 	"file": "main.css",
-	"sourceRoot": "/home/liyilin/Services/hugo",
+	"sourceRoot": "/Users/allin/Code/hugo_website",
 	"sources": [
 		"ananke/css/main.css"
 	],

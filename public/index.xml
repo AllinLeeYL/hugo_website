@@ -1,12 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
-    <link>http://localhost:1313/</link>
-    <description>Recent content on My New Hugo Site</description>
-    <generator>Hugo</generator>
+    <title>Allin Lee - Home Page</title>
+    <link>https://allinleeyl.github.io/hugo_website/</link>
+    <description>Recent content on Allin Lee - Home Page</description>
+    <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate></lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 20 Oct 2024 18:12:15 +0800</lastBuildDate>
+    <atom:link href="https://allinleeyl.github.io/hugo_website/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>C/C&#43;&#43; Development Experience</title>
+      <link>https://allinleeyl.github.io/hugo_website/posts/c/c-development-experience/</link>
+      <pubDate>Sun, 20 Oct 2024 18:12:15 +0800</pubDate>
+      <guid>https://allinleeyl.github.io/hugo_website/posts/c/c-development-experience/</guid>
+      <description>&lt;p&gt;This blog collects commonly seen C/C++ errors that occur during the compilation/linking process and gives some advice on them.&lt;/p&gt;
+&lt;h2 id=&#34;undefined-reference-to-xxx&#34;&gt;undefined reference to &lt;code&gt;xxx&lt;/code&gt;&lt;/h2&gt;
+&lt;p&gt;Your compiler will complain about this when the symbol &lt;code&gt;xxx&lt;/code&gt; cannot be found among the linked libraries, especially when you are compiling a project using multiple components from different developers. Usually, you can solve this problem by:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Checking if you forget to link some .c/.cpp files to your final target, if the symbol is defined in your own code.&lt;/li&gt;
+&lt;li&gt;Checking if you forget to add the &lt;code&gt;-llibxxx&lt;/code&gt; argument if you are using some functions provided by third-party libraries. For example, &lt;code&gt;-lm&lt;/code&gt; should be given when using mathematics functions provided by &lt;code&gt;libm.a&lt;/code&gt;.&lt;/li&gt;
+&lt;li&gt;Checking if there is a mismatch of versions between your header file (.h/.hpp) and the libraries (.o/.a/.dylib/.dll). Most developers will discard support for some features of older versions after some version. This will lead to some symbols in the header file not being defined in an older/newer version of libraries. You are suggested to check out the changelog of the libraries you&amp;rsquo;re using.&lt;/li&gt;
+&lt;/ul&gt;</description>
+    </item>
   </channel>
 </rss>

@@ -3,19 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://allinleeyl.github.io/hugo_website/</loc>
-    <lastmod>2024-10-21T21:37:52+08:00</lastmod>
+    <lastmod>2024-10-22T21:37:52+08:00</lastmod>
   </url><url>
     <loc>https://allinleeyl.github.io/hugo_website/posts/connect-mac-to-printer/</loc>
-    <lastmod>2024-10-21T21:37:52+08:00</lastmod>
+    <lastmod>2024-10-22T21:37:52+08:00</lastmod>
+  </url><url>
+    <loc>https://allinleeyl.github.io/hugo_website/tags/network/</loc>
+    <lastmod>2024-10-22T21:37:52+08:00</lastmod>
   </url><url>
     <loc>https://allinleeyl.github.io/hugo_website/posts/</loc>
-    <lastmod>2024-10-21T21:37:52+08:00</lastmod>
+    <lastmod>2024-10-22T21:37:52+08:00</lastmod>
+  </url><url>
+    <loc>https://allinleeyl.github.io/hugo_website/tags/</loc>
+    <lastmod>2024-10-22T21:37:52+08:00</lastmod>
   </url><url>
     <loc>https://allinleeyl.github.io/hugo_website/posts/c-development-experience/</loc>
     <lastmod>2024-10-20T18:12:15+08:00</lastmod>
   </url><url>
-    <loc>https://allinleeyl.github.io/hugo_website/categories/</loc>
+    <loc>https://allinleeyl.github.io/hugo_website/tags/programming/</loc>
+    <lastmod>2024-10-20T18:12:15+08:00</lastmod>
   </url><url>
-    <loc>https://allinleeyl.github.io/hugo_website/tags/</loc>
+    <loc>https://allinleeyl.github.io/hugo_website/archives/</loc>
+  </url><url>
+    <loc>https://allinleeyl.github.io/hugo_website/categories/</loc>
   </url>
 </urlset>

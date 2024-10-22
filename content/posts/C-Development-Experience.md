@@ -2,6 +2,7 @@
 title = 'C/C++ Development Experience'
 date = 2024-10-20T18:12:15+08:00
 draft = false
+tags = ["programming"]
 +++
 
 This blog collects commonly seen C/C++ errors that occur during the compilation/linking process and gives some advice on them.

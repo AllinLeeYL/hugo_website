@@ -1,4 +1,44 @@
-baseURL = 'https://allinleeyl.github.io/hugo_website/'
+baseURL = "https://allinleeyl.github.io/hugo_website/"
 languageCode = 'en-us'
-title = 'Allin Lee - Home Page'
-theme = 'PaperMod'
+title = "Allin Lee's Home"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+enableInlineShortcodes = true
+
+[params]
+env = "production"
+title = "Hi!"
+description = "This is Allin Lee's homepage."
+defaultTheme = "auto"
+social = true
+ShowToc = true
+hideSummary = false
+
+[params.taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+[params.homeInfoParams]
+Title = "Allin's Home"
+Content = '''
+Kia ora, 👋
+
+I am on a MS program majoring in CS at UCAS.
+This is a place where I'd like to share my experience, and ideas.'''
+
+[[params.socialIcons]]
+name = "github"
+title = "View Source on Github"
+url = "https://github.com/AllinLeeYL"
+
+[menus]
+[[menus.main]]
+name = 'Tags'
+url = 'tags/'
+weight = 10
+[[menus.main]]
+name = 'Archive'
+url = 'archives/'
+weight = 5

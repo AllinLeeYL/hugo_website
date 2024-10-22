@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Posts on Allin Lee - Home Page</title>
+    <title>Posts on Allin Lee&#39;s Home</title>
     <link>https://allinleeyl.github.io/hugo_website/posts/</link>
-    <description>Recent content in Posts on Allin Lee - Home Page</description>
+    <description>Recent content in Posts on Allin Lee&#39;s Home</description>
     <generator>Hugo -- 0.136.2</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 21 Oct 2024 21:37:52 +0800</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 21:37:52 +0800</lastBuildDate>
     <atom:link href="https://allinleeyl.github.io/hugo_website/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Connect Mac to Printer</title>
       <link>https://allinleeyl.github.io/hugo_website/posts/connect-mac-to-printer/</link>
-      <pubDate>Mon, 21 Oct 2024 21:37:52 +0800</pubDate>
+      <pubDate>Tue, 22 Oct 2024 21:37:52 +0800</pubDate>
       <guid>https://allinleeyl.github.io/hugo_website/posts/connect-mac-to-printer/</guid>
       <description>&lt;h1 id=&#34;how-to-connect-your-mac-to-network-printer&#34;&gt;How to Connect Your Mac to Network Printer&lt;/h1&gt;
-&lt;p&gt;If you have a network printer shared by your pc (windows computer) and want to connect your Mac to it (just like below), this post is perfect for you. You will need to make some configurations for your Windows PC and Mac separately.&lt;/p&gt;
+&lt;p&gt;If you have a network printer shared by your Windows PC and want to connect your Mac to it (just like below), this post is perfect for you. You will need to make some configurations for your Windows PC and Mac separately.&lt;/p&gt;
 
 
 
@@ -122,7 +122,7 @@
     &lt;/svg&gt;
   
 &lt;/div&gt;
-&lt;h2 id=&#34;windows-settings&#34;&gt;Windows Settings&lt;/h2&gt;
+&lt;h2 id=&#34;windows-server-settings&#34;&gt;Windows (Server) Settings&lt;/h2&gt;
 &lt;p&gt;First, your Windows PC has to have the right access to the printer, normally including installing the right driver and plugging a wire connecting your PC to the printer. Make sure that you can print using this Windows PC.&lt;/p&gt;</description>
     </item>
     <item>

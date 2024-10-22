@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>C/C&#43;&#43; Development Experience | Allin Lee - Home Page</title>
-<meta name="keywords" content="">
+<title>C/C&#43;&#43; Development Experience | Allin Lee&#39;s Home</title>
+<meta name="keywords" content="programming">
 <meta name="description" content="This blog collects commonly seen C/C&#43;&#43; errors that occur during the compilation/linking process and gives some advice on them.
 undefined reference to xxx
 Your compiler will complain about this when the symbol xxx cannot be found among the linked libraries, especially when you are compiling a project using multiple components from different developers. Usually, you can solve this problem by:
@@ -74,7 +74,7 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://allinleeyl.github.io/hugo_website/posts/c-development-experience/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2024-10-20T18:12:15+08:00" />
-<meta property="article:modified_time" content="2024-10-20T18:12:15+08:00" />
+<meta property="article:modified_time" content="2024-10-20T18:12:15+08:00" /><meta property="og:site_name" content="Hi!" />
 
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="C/C&#43;&#43; Development Experience"/>
@@ -116,7 +116,7 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
   "name": "C\/C\u002b\u002b Development Experience",
   "description": "This blog collects commonly seen C/C++ errors that occur during the compilation/linking process and gives some advice on them.\nundefined reference to xxx Your compiler will complain about this when the symbol xxx cannot be found among the linked libraries, especially when you are compiling a project using multiple components from different developers. Usually, you can solve this problem by:\nChecking if you forget to link some .c/.cpp files to your final target, if the symbol is defined in your own code. Checking if you forget to add the -llibxxx argument if you are using some functions provided by third-party libraries. For example, -lm should be given when using mathematics functions provided by libm.a. Checking if there is a mismatch of versions between your header file (.h/.hpp) and the libraries (.o/.a/.dylib/.dll). Most developers will discard support for some features of older versions after some version. This will lead to some symbols in the header file not being defined in an older/newer version of libraries. You are suggested to check out the changelog of the libraries you\u0026rsquo;re using. ",
   "keywords": [
-    
+    "programming"
   ],
   "articleBody": "This blog collects commonly seen C/C++ errors that occur during the compilation/linking process and gives some advice on them.\nundefined reference to xxx Your compiler will complain about this when the symbol xxx cannot be found among the linked libraries, especially when you are compiling a project using multiple components from different developers. Usually, you can solve this problem by:\nChecking if you forget to link some .c/.cpp files to your final target, if the symbol is defined in your own code. Checking if you forget to add the -llibxxx argument if you are using some functions provided by third-party libraries. For example, -lm should be given when using mathematics functions provided by libm.a. Checking if there is a mismatch of versions between your header file (.h/.hpp) and the libraries (.o/.a/.dylib/.dll). Most developers will discard support for some features of older versions after some version. This will lead to some symbols in the header file not being defined in an older/newer version of libraries. You are suggested to check out the changelog of the libraries you’re using. ",
   "wordCount" : "177",
@@ -129,7 +129,7 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
   },
   "publisher": {
     "@type": "Organization",
-    "name": "Allin Lee - Home Page",
+    "name": "Allin Lee's Home",
     "logo": {
       "@type": "ImageObject",
       "url": "https://allinleeyl.github.io/hugo_website/favicon.ico"
@@ -154,7 +154,7 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="https://allinleeyl.github.io/hugo_website/" accesskey="h" title="Allin Lee - Home Page (Alt + H)">Allin Lee - Home Page</a>
+            <a href="https://allinleeyl.github.io/hugo_website/" accesskey="h" title="Allin Lee&#39;s Home (Alt + H)">Allin Lee&#39;s Home</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -179,6 +179,16 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
             </div>
         </div>
         <ul id="menu">
+            <li>
+                <a href="https://allinleeyl.github.io/hugo_website/archives/" title="Archive">
+                    <span>Archive</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://allinleeyl.github.io/hugo_website/tags/" title="Tags">
+                    <span>Tags</span>
+                </a>
+            </li>
         </ul>
     </nav>
 </header>
@@ -193,7 +203,21 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
     <div class="post-meta"><span title='2024-10-20 18:12:15 +0800 CST'>October 20, 2024</span>
 
 </div>
-  </header> 
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#undefined-reference-to-xxx" aria-label="undefined reference to xxx">undefined reference to xxx</a>
+                </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
   <div class="post-content"><p>This blog collects commonly seen C/C++ errors that occur during the compilation/linking process and gives some advice on them.</p>
 <h2 id="undefined-reference-to-xxx">undefined reference to <code>xxx</code><a hidden class="anchor" aria-hidden="true" href="#undefined-reference-to-xxx">#</a></h2>
 <p>Your compiler will complain about this when the symbol <code>xxx</code> cannot be found among the linked libraries, especially when you are compiling a project using multiple components from different developers. Usually, you can solve this problem by:</p>
@@ -208,13 +232,14 @@ Checking if there is a mismatch of versions between your header file (.h/.hpp) a
 
   <footer class="post-footer">
     <ul class="post-tags">
+      <li><a href="https://allinleeyl.github.io/hugo_website/tags/programming/">Programming</a></li>
     </ul>
   </footer>
 </article>
     </main>
     
 <footer class="footer">
-        <span>&copy; 2024 <a href="https://allinleeyl.github.io/hugo_website/">Allin Lee - Home Page</a></span> · 
+        <span>&copy; 2024 <a href="https://allinleeyl.github.io/hugo_website/">Allin Lee&#39;s Home</a></span> · 
 
     <span>
         Powered by
